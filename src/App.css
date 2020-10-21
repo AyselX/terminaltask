@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+
+
+.terminal-body {
+  background-color: #FCFCFC;
+  width: 100%;
+  
+}
+
+#iframe {
+  /* Rectangle 22 */
+
+
+
+height: 260px;
+background: #FFFFFF;
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+border-radius: 5px;
+margin: 1%;
+
+}
+
+h1 {
+  padding-top: 7%;
+}
+#table {
+margin:0 1% 0 1%;
+padding: 3%;
+height: 309px;
+
+
+background: #FFFFFF;
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+}
+table {
+  padding: 5%;
+}
+
+td {
+  text-align: left;
+  padding-left: 30px;
+  
+}
+
+#rightSide {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  text-align: left;
+  
+}
+input {
+  text-align: right;
+}
+
