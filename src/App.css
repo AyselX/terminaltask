@@ -27,11 +27,11 @@ margin: 1%;
 h1 {
   padding-top: 7%;
 }
+
 #table {
 margin:0 1% 0 1%;
-padding: 3%;
-height: 309px;
-
+padding: 1%;
+height: auto;
 
 background: #FFFFFF;
 border: 1px solid #EBEBEB;
@@ -40,31 +40,79 @@ border-radius: 5px;
 
 
 }
-table {
-  padding: 5%;
+
+#subtable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-td {
-  text-align: left;
-  padding-left: 30px;
-  
+#leftSide {
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
 }
+
+
+.leftside-1 p {
+  font-weight: bold;
+  text-align: left;
+  line-height: 19px;
+}
+
+.leftside-2 {
+  margin-left: 5rem;
+}
+
+.leftside-2 p {
+  text-align: left;
+  line-height: 19px;
+}
+
 
 #rightSide {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex: 50%;
 }
+
+@media (max-width: 800px) {
+  #leftSide, #rightSide {
+    flex: 100%;
+  }
+}
+
+.rightSide-1 p {
+  font-weight: bold;
+  text-align: left;
+}
+
+.rightSide-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  
+}
+
+input {
+  margin: 20px
+}
+
+/*
 
 ul {
   list-style: none;
 }
 
 li {
-  margin: 10px;
+  margin: 5px;
   text-align: left;
   
 }
 input {
   text-align: right;
 }
+
+*/
 
